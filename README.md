@@ -48,7 +48,7 @@ Run the packaged game with:
 dist\snake_game\run-snake-game.bat
 ```
 
-The release folder contains the executable, `media`, and the MinGW runtime DLLs needed by the game. Zip `dist\snake_game` if you want to upload a ready-to-run build to GitHub Releases.
+The release folder `dist\snake_game` contains the executable, `media`, and the MinGW runtime DLLs needed by the game.
 
 ```powershell
 Compress-Archive -Path .\dist\snake_game\* -DestinationPath .\dist\snake_game-windows-x64.zip -Force
